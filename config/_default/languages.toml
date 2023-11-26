@@ -1,0 +1,12 @@
+################ Spanish language ##################
+[es]
+languageName = "🌐 ES"
+languageCode = "es-co"
+contentDir = "content/es"
+weight = 1
+################ English language ##################
+[en]
+languageName = "🇺🇸 EN"
+languageCode = "en-us"
+contentDir = "content/en"
+weight = 2

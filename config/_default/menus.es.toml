@@ -1,0 +1,137 @@
+############# English navigation ##############
+
+# main menu
+#[[main]]
+#name = "Inicio"
+#url = "/"
+#weight = 1
+
+#[[main]]
+#name = "Conócenos"
+#url = "/es/conocenos/"
+#weight = 1
+#hasChildren = true
+
+[[main]]
+#parent = "Nosotros"
+name = "Nosotros"
+url = "/es/conocenos/"
+weight = 1
+
+  #[[main]]
+  ##parent = "Nosotros"
+  #name = "Contacto"
+  #url = "/es/contacto/"
+  #weight = 4
+
+  [[main]]
+  parent = "Nosotros"
+  name = "Conócenos"
+  url = "/es/conocenos/"
+  weight = 1
+
+  [[main]]
+  parent = "Nosotros"
+  name = "Servicios e Industrias"
+  url = "/es/servicios/"
+  weight = 2
+
+  [[main]]
+  parent = "Nosotros"
+  name = "Vehículos de emergencia y rescate"
+  url = "/es/vehiculos/"
+  weight = 3
+
+  [[main]]
+  parent = "Nosotros"
+  name = "Contacto"
+  url = "/es/contacto/"
+  weight = 4
+
+
+[[main]]
+name = "Blog"
+url = "/es/blog/"
+weight = 3
+hasChildren = true
+  
+  [[main]]
+  parent = "Blog"
+  name = "Blog de las Ambulancias"
+  url = "/es/blog/"
+  weight = 1
+
+  [[main]]
+  parent = "Blog"
+  name = "Categorías del blog"
+  url = "/es/categories/"
+  weight = 2
+
+  [[main]]
+  parent = "Blog"
+  name = "Equipamiento Médico"
+  url = "/es/categories/equipamiento-m%C3%A9dico/"
+  weight = 3
+
+  [[main]]
+  parent = "Blog"
+  name = "Tecnología Médica"
+  url = "/es/categories/tecnología-médica/"
+  weight = 3
+
+  [[main]]
+  parent = "Blog"
+  name = "Equipos Médicos De Soporte Vital"
+  url = "/es/categories/equipos-médicos-de-soporte-vital/"
+  weight = 3
+
+
+[[main]]
+name = "Libros"
+url = "libros/"
+weight = 4
+
+#[[main]]
+#weight = 4
+#name = "Páginas"
+#hasChildren = true
+
+#[[main]]
+#name = "Contacto"
+#url = "contact/"
+
+  #[[main]]
+  #parent = "Páginas"
+  #name = "Autores"
+  #url = "autores/"
+
+# footer menu
+[[footer]]
+name = "Contacto"
+url = "/es/contacto/"
+weight = 1
+
+[[footer]]
+name = "Servicios"
+url = "/es/servicios/"
+weight = 2
+
+[[footer]]
+name = "Vehículos"
+url = "/es/vehiculos/"
+weight = 2
+
+[[footer]]
+name = "Blog"
+url = "/es/blog/"
+weight = 3
+
+[[footer]]
+name = "Términos del Servicio"
+url = "/es/terminos-servicio/"
+weight = 10
+
+[[footer]]
+name = "Política de Privacidad"
+url = "/es/politica-privacidad/"
+weight = 11

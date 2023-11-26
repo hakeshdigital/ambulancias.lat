@@ -1,0 +1,35 @@
+- id: home
+  translation: 🚑️
+
+- id: read_more
+  translation: Leer más
+
+- id: send
+  translation: Enviar
+
+- id: related_posts
+  translation: Entradas relacionadas
+
+- id: categories
+  translation: Categorías
+
+- id: tags
+  translation: Etiquetas
+
+- id: toc
+  translation: Tabla de contenidos
+
+- id: share
+  translation: Compartir
+
+- id: back_to_home
+  translation: Regresar al Inicio
+
+- id: search_input_placeholder
+  translation: Buscar entrada...
+
+- id: no_results_for
+  translation: No hay resultados para
+
+- id: empty_search_results_placeholder
+  translation: Escribe lo que buscas...
